@@ -8,12 +8,7 @@ export default function Footer() {
                     {/* Brand */}
                     <div className="flex flex-col gap-6">
                         <Link href="/" className="flex items-center gap-3 text-primary">
-                            <div className="size-8">
-                                <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M24 4C25.7818 14.2173 33.7827 22.2182 44 24C33.7827 25.7818 25.7818 33.7827 24 44C22.2182 33.7827 14.2173 25.7818 4 24C14.2173 22.2182 22.2182 14.2173 24 4Z" fill="currentColor" />
-                                </svg>
-                            </div>
-                            <h2 className="text-xl font-bold text-white">Lumen Psixologiya</h2>
+                            <img src="/images/lumen-logo.png" alt="Lumen Logo" className="h-10 w-auto object-contain brightness-0 invert" />
                         </Link>
                         <p className="text-slate-400 text-sm leading-relaxed">
                             Sevgi ən güclü işıqdır. İnsan ən çox anlayış gördüyü yerdə sağalmağa başlayır.
@@ -46,9 +41,9 @@ export default function Footer() {
                                 <span className="material-symbols-outlined text-primary text-xl shrink-0">location_on</span>
                                 <span className="text-sm">Nizami küçəsi 123, Bakı, Azərbaycan</span>
                             </div>
-                            <a href="tel:+994501234567" className="flex items-center gap-3 text-slate-400 hover:text-primary transition-colors">
-                                <span className="material-symbols-outlined text-primary text-xl">call</span>
-                                <span className="text-sm">+994 50 123 45 67</span>
+                            <a href="tel:+994506032365" className="flex items-center gap-3 text-slate-400 hover:text-primary transition-colors">
+                                <span className="material-symbols-outlined text-primary">call</span>
+                                <span className="text-sm">+994 50 603 23 65</span>
                             </a>
                             <div className="flex items-center gap-3 text-slate-400">
                                 <span className="material-symbols-outlined text-primary text-xl">schedule</span>

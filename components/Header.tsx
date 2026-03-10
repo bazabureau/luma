@@ -10,12 +10,7 @@ export default function Header() {
         <header className="sticky top-0 z-50 border-b border-solid border-slate-900/10 dark:border-slate-100/10 bg-surface-light/95 dark:bg-surface-dark/95 backdrop-blur-sm">
             <div className="flex items-center justify-between whitespace-nowrap px-5 py-4 lg:px-10 max-w-[1200px] mx-auto w-full">
                 <Link href="/" className="flex items-center gap-3 min-w-0" onClick={() => setMenuOpen(false)}>
-                    <div className="size-8 text-primary shrink-0">
-                        <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M24 4C25.7818 14.2173 33.7827 22.2182 44 24C33.7827 25.7818 25.7818 33.7827 24 44C22.2182 33.7827 14.2173 25.7818 4 24C14.2173 22.2182 22.2182 14.2173 24 4Z" fill="currentColor" />
-                        </svg>
-                    </div>
-                    <h2 className="text-lg lg:text-xl font-bold leading-tight tracking-tight truncate">Lumen Psixologiya Mərkəzi</h2>
+                    <img src="/images/lumen-logo.png" alt="Lumen Logo" className="h-10 w-auto object-contain" />
                 </Link>
                 <div className="hidden lg:flex flex-1 justify-end gap-8 items-center">
                     <nav className="flex items-center gap-8">

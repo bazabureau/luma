@@ -165,7 +165,7 @@ export default function HaqqimizdaPage() {
                                     <div className="h-[2px] w-8 bg-primary"></div>
                                 </div>
                                 <h2 className="text-3xl lg:text-4xl font-black leading-tight tracking-tight">
-                                    Peşəkar Mütəxəssislərimiz
+                                    Peşəkar Psixoloqumuz
                                 </h2>
                                 <p className="text-slate-500 dark:text-slate-100/70 text-lg max-w-2xl">
                                     Komandamız beynəlxalq sertifikatlara sahib, təcrübəli
@@ -205,7 +205,7 @@ export default function HaqqimizdaPage() {
                                     Bizimlə əlaqə saxlayın
                                 </h2>
                                 <p className="text-slate-500 dark:text-slate-100/70 text-lg">
-                                    İlk konsultasiya pulsuz! Peşəkar mütəxəssislərimizlə tanış
+                                    İlk konsultasiya pulsuz! Peşəkar psixoloqumuzla tanış
                                     olun.
                                 </p>
                             </div>

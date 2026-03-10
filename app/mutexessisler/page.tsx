@@ -3,52 +3,12 @@ import Footer from "@/components/Footer";
 
 const specialists = [
     {
-        name: "Dr. Leyla Həsənova",
-        role: "Klinik Psixoloq, Baş Mütəxəssis",
+        name: "Mina xanım",
+        role: "Psixoloq",
         image: "/images/team-female.png",
-        bio: "15 illik təcrübə. Koqnitiv-davranış terapiyası və travma müalicəsi üzrə ixtisaslaşıb. Bakı Dövlət Universitetinin Psixologiya fakültəsini bitirib, Böyük Britaniyada ixtisas artırıb.",
-        specialties: ["Fərdi Terapiya", "Travma Müalicəsi", "EMDR", "KDT"],
-        education: "BSU Psixologiya, King's College London MA",
-    },
-    {
-        name: "Dr. Elvin Məmmədov",
-        role: "Psixoterapevt",
-        image: "/images/team-male.png",
-        bio: "10 illik təcrübə. Ailə və cütlük terapiyası, yeniyetmə psixologiyası sahəsində mütəxəssis. Gottman metodu üzrə sertifikatlı terapevt.",
-        specialties: ["Cütlük Terapiyası", "Ailə Terapiyası", "Yeniyetmə Terapiyası"],
-        education: "ADPU Psixologiya, İstanbul Universitetit MA",
-    },
-    {
-        name: "Aynur Əliyeva",
-        role: "Uşaq Psixoloqu",
-        image: "/images/team-female.png",
-        bio: "8 illik təcrübə. Uşaq inkişafı, oyun terapiyası və davranış problemləri üzrə ixtisaslaşıb. Play Therapy International sertifikatı.",
-        specialties: ["Uşaq Psixologiyası", "Oyun Terapiyası", "Sənət Terapiyası"],
-        education: "BSU Psixologiya, Play Therapy International",
-    },
-    {
-        name: "Rəşad Hüseynov",
-        role: "Klinik Psixoloq",
-        image: "/images/team-male.png",
-        bio: "12 illik təcrübə. Qrup terapiyası və sosial bacarıqlar təlimi üzrə mütəxəssis. Depressiya və təşviş pozuntuları sahəsində dərin biliyə malikdir.",
-        specialties: ["Qrup Terapiyası", "Fərdi Terapiya", "Psixoloji Diaqnostika"],
-        education: "ADPU Klinik Psixologiya MA",
-    },
-    {
-        name: "Nigar İsmayılova",
-        role: "Psixoloji Məsləhətçi",
-        image: "/images/team-female.png",
-        bio: "6 illik təcrübə. Stres idarəetmə, karyera məsləhəti və şəxsi inkişaf proqramları üzrə mütəxəssis.",
-        specialties: ["Stres İdarəetmə", "Karyera Məsləhəti", "Mindfulness"],
-        education: "BSU Psixologiya BA, Sertifikatlı Mindfulness Təlimçi",
-    },
-    {
-        name: "Tural Əhmədov",
-        role: "Neyro­psixoloq",
-        image: "/images/team-male.png",
-        bio: "9 illik təcrübə. Koqnitiv funksiyaların qiymətləndirilməsi və neyropsixoloji reabilitasiya üzrə mütəxəssis.",
-        specialties: ["Psixoloji Diaqnostika", "Neyropsixologiya", "Koqnitiv Reabilitasiya"],
-        education: "Moskva Dövlət Universitetin Neyropsixologiya PhD",
+        bio: "",
+        specialties: ["Psixoloji Konsultasiya"],
+        education: "",
     },
 ];
 
@@ -65,7 +25,7 @@ export default function MutexessislerPage() {
                                 <h3 className="text-primary font-bold uppercase tracking-widest text-sm">Komandamız</h3>
                                 <div className="h-[2px] w-8 bg-primary"></div>
                             </div>
-                            <h1 className="text-4xl lg:text-6xl font-black leading-tight tracking-tight">Peşəkar Mütəxəssislərimiz</h1>
+                            <h1 className="text-4xl lg:text-6xl font-black leading-tight tracking-tight">Psixoloqumuz</h1>
                             <p className="text-slate-500 dark:text-slate-100/70 text-lg leading-relaxed">
                                 Komandamız beynəlxalq sertifikatlara sahib, təcrübəli psixoloqlardan və psixoterapevtlərdən ibarətdir.
                             </p>

@@ -3,14 +3,22 @@ import Footer from "@/components/Footer";
 
 const services = [
     {
+        icon: "health_and_safety",
+        title: "Klinik Xidmət",
+        description:
+            "Psixiatrik və klinik psixoloji dəyərləndirmə, diaqnostika və müalicə.",
+        details:
+            "Klinik xidmət müxtəlif psixotik, nevrotik və şəxsiyyət pozuntularının dərin klinik dəyərləndirməsini ehtiva edir.",
+        audience: "Yetkinlər və Yeniyetmələr",
+    },
+    {
         icon: "person",
         title: "Fərdi Terapiya",
         description:
             "Depressiya, təşviş, travma və şəxsi böhranların həllində peşəkar dəstək.",
         details:
             "Fərdi terapiya seanslarımız 50 dəqiqə davam edir. Koqnitiv-davranış terapiyası (KDT), psixoanalitik yanaşma və humanist terapiya metodlarından istifadə edilir. Hər bir pasiyentə fərdi müalicə planı hazırlanır.",
-        duration: "50 dəq",
-        price: "80 AZN",
+        audience: "Yetkinlər (18+)",
     },
     {
         icon: "diversity_1",
@@ -19,8 +27,7 @@ const services = [
             "Münasibət problemləri, ünsiyyət əskikliyi və münaqişələrin həlli üçün terapiya.",
         details:
             "Cütlük terapiyası seanslarımız 75 dəqiqə davam edir. Emotsional yönümlü terapiya (EFT) və Gottman metodundan istifadə edilir. Hər iki tərəfin ehtiyacları nəzərə alınır.",
-        duration: "75 dəq",
-        price: "120 AZN",
+        audience: "Cütlüklər",
     },
     {
         icon: "family_restroom",
@@ -29,8 +36,7 @@ const services = [
             "Ailə daxili dinamikaların yaxşılaşdırılması və böhranların idarə edilməsi.",
         details:
             "Ailə terapiyası sistemik yanaşma əsasında aparılır. Ailə üzvləri arasında ünsiyyəti yaxşılaşdırmaq, konfliktləri həll etmək və sağlam ailə dinamikası yaratmaq məqsədi daşıyır.",
-        duration: "90 dəq",
-        price: "150 AZN",
+        audience: "Ailələr",
     },
     {
         icon: "child_care",
@@ -39,8 +45,7 @@ const services = [
             "Davranış pozuntuları, öyrənmə çətinlikləri və uşaq inkişafı problemləri.",
         details:
             "Uşaq psixologiyası seanslarında oyun terapiyası, sənət terapiyası və koqnitiv-davranış yanaşmaları tətbiq edilir. Valideynlərlə birgə iş aparılır.",
-        duration: "45 dəq",
-        price: "70 AZN",
+        audience: "Uşaqlar (3-12 yaş)",
     },
     {
         icon: "groups",
@@ -49,8 +54,7 @@ const services = [
             "Bənzər problemlər yaşayan şəxslərlə dəstəkləyici mühitdə sağalma prosesi.",
         details:
             "Qrup terapiyası seansları 6-10 nəfərlik qruplarla həftəlik keçirilir. Sosial dəstək, qarşılıqlı öyrənmə və paylaşım əsasında sağalma prosesi həyata keçirilir.",
-        duration: "90 dəq",
-        price: "40 AZN",
+        audience: "Yetkinlər (18+)",
     },
     {
         icon: "school",
@@ -59,8 +63,7 @@ const services = [
             "Keçid dövrü çətinlikləri, özünə inam və gələcək planlaşdırılması üzrə dəstək.",
         details:
             "12-18 yaş aralığındakı yeniyetmələr üçün xüsusi hazırlanmış proqram. Özünəinam, stress idarəetmə, karyera yönləndirmə və sosial bacarıqlar üzərində işlənilir.",
-        duration: "50 dəq",
-        price: "70 AZN",
+        audience: "Yeniyetmələr (12-18 yaş)",
     },
     {
         icon: "vital_signs",
@@ -69,8 +72,7 @@ const services = [
             "Klinik qiymətləndirmə, şəxsiyyət testləri və koqnitiv funksiyaların yoxlanılması.",
         details:
             "Beynəlxalq standartlara cavab verən psixometrik testlər və klinik müsahibə vasitəsilə hərtərəfli psixoloji qiymətləndirmə aparılır. Yazılı hesabat təqdim edilir.",
-        duration: "120 dəq",
-        price: "200 AZN",
+        audience: "Bütün yaşlar",
     },
 ];
 
@@ -125,31 +127,14 @@ export default function XidmetlerimizPage() {
                                             {service.details}
                                         </p>
                                         <div className="flex flex-wrap gap-4 mt-2">
-                                            <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-background-light dark:bg-background-dark">
-                                                <span className="material-symbols-outlined text-primary text-xl">
-                                                    schedule
+                                            <div className="flex items-center gap-2">
+                                                <span className="material-symbols-outlined text-primary text-lg">
+                                                    group
                                                 </span>
-                                                <span className="text-sm font-semibold">
-                                                    {service.duration}
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-background-light dark:bg-background-dark">
-                                                <span className="material-symbols-outlined text-primary text-xl">
-                                                    payments
-                                                </span>
-                                                <span className="text-sm font-semibold">
-                                                    {service.price}
+                                                <span className="text-sm font-semibold whitespace-nowrap overflow-hidden text-ellipsis">
+                                                    {service.audience}
                                                 </span>
                                             </div>
-                                            <a
-                                                href="/qebul"
-                                                className="flex items-center gap-2 px-6 py-2 rounded-lg bg-primary text-slate-900 font-bold text-sm hover:bg-primary/90 transition-colors"
-                                            >
-                                                Qəbula yazıl
-                                                <span className="material-symbols-outlined text-[16px]">
-                                                    arrow_forward
-                                                </span>
-                                            </a>
                                         </div>
                                     </div>
                                 </div>

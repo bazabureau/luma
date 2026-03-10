@@ -4,11 +4,11 @@ import Footer from "@/components/Footer";
 const values = [
     {
         icon: "verified",
-        title: "Peşəkar Yanaşma",
+        title: "Peşəkar yanaşmamız",
         description:
-            "Hər bir pasiyentə beynəlxalq standartlara və etik normalara uyğun yüksək səviyyəli yanaşma tətbiq edilir.",
+            "Hər bir pasiyentə sevgi ilə yanaşaraq, içindəki işığı gücləndirmək və həyatına aydınlıq gətirməkdir",
         details:
-            "Komandamız beynəlxalq psixologiya assosiasiyalarının standartlarına əməl edir. Bütün mütəxəssislərimiz müntəzəm olaraq superviziya seanslarında iştirak edir və peşəkar inkişaf proqramlarından keçir. Biz etik kodekslərə ciddi riayət edirik və hər bir müdaxilə sübuta əsaslanan metodlarla aparılır.",
+            "Komandamız beynəlxalq psixologiya assosiasiyalarının standartlarına əməl edir. Psixoloqumuz müntəzəm olaraq superviziya seanslarında iştirak edir və peşəkar inkişaf proqramlarından keçir. Biz etik kodekslərə ciddi riayət edirik və hər bir müdaxilə sübuta əsaslanan metodlarla aparılır.",
     },
     {
         icon: "lock",
@@ -32,7 +32,7 @@ const values = [
         description:
             "Hər bir insanın daxili dünyasını anlamaq və qeyri-mühakimə edici mühit yaratmaq bizim əsas dəyərimizdir.",
         details:
-            "Terapevtik münasibət güvən və anlayış üzərində qurulur. Mütəxəssislərimiz hər pasiyentin unikal təcrübəsinə hörmətlə yanaşır və qeyri-mühakimə edici mühit yaradır. Bu yanaşma sağalma prosesinin əsasını təşkil edir.",
+            "Terapevtik münasibət güvən və anlayış üzərində qurulur. Psixoloqumuz hər pasiyentin unikal təcrübəsinə hörmətlə yanaşır və qeyri-mühakimə edici mühit yaradır. Bu yanaşma sağalma prosesinin əsasını təşkil edir.",
     },
     {
         icon: "auto_awesome",
@@ -40,7 +40,7 @@ const values = [
         description:
             "Ən son elmi araşdırmalara əsaslanan müasir terapevtik yanaşmalar tətbiq edilir.",
         details:
-            "Koqnitiv-davranış terapiyası (KDT), EMDR, dialektik davranış terapiyası, sxem terapiyası və digər sübuta əsaslanan metodlardan istifadə edirik. Mütəxəssislərimiz yeni metodları öyrənmək üçün müntəzəm olaraq beynəlxalq təlimlərdə iştirak edir.",
+            "Koqnitiv-davranış terapiyası (KDT), EMDR, dialektik davranış terapiyası, sxem terapiyası və digər sübuta əsaslanan metodlardan istifadə edirik. Psixoloqumuz yeni metodları öyrənmək üçün müntəzəm olaraq beynəlxalq təlimlərdə iştirak edir.",
     },
     {
         icon: "diversity_3",

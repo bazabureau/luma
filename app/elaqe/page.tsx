@@ -31,8 +31,8 @@ export default function ElaqePage() {
                                     <div className="flex flex-col gap-5">
                                         {[
                                             { icon: "location_on", label: "Ünvan", value: "Nizami küçəsi 123, Bakı, Azərbaycan" },
-                                            { icon: "call", label: "Telefon", value: "+994 50 123 45 67" },
-                                            { icon: "mail", label: "E-poçt", value: "info@lumenpsixologiya.az" },
+                                            { icon: "call", label: "Telefon", value: "+994 50 603 23 65" },
+                                            { icon: "mail", label: "E-poçt", value: "info@lumen.az" },
                                             { icon: "schedule", label: "İş Saatları", value: "B.e - Şənbə: 09:00 - 19:00" },
                                         ].map((item) => (
                                             <div key={item.label} className="flex items-start gap-4">

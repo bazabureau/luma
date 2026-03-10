@@ -17,7 +17,7 @@ export default function QebulPage() {
                             </div>
                             <h1 className="text-4xl lg:text-6xl font-black leading-tight tracking-tight">Onlayn Qeydiyyat</h1>
                             <p className="text-slate-500 dark:text-slate-100/70 text-lg leading-relaxed">
-                                Aşağıdakı formu doldurun, mütəxəssislərimiz sizinlə 24 saat ərzində əlaqə saxlayacaq.
+                                Aşağıdakı formu doldurun, psixoloqumuz sizinlə 24 saat ərzində əlaqə saxlayacaq.
                             </p>
                         </div>
                     </section>
@@ -124,11 +124,11 @@ export default function QebulPage() {
                                     <div className="flex flex-col gap-3">
                                         <div className="flex items-center gap-3 text-slate-500 dark:text-slate-100/70">
                                             <span className="material-symbols-outlined text-primary text-xl">call</span>
-                                            <span className="text-sm">+994 50 123 45 67</span>
+                                            <span className="text-sm">+994 50 603 23 65</span>
                                         </div>
                                         <div className="flex items-center gap-3 text-slate-500 dark:text-slate-100/70">
                                             <span className="material-symbols-outlined text-primary text-xl">mail</span>
-                                            <span className="text-sm">info@lumenpsixologiya.az</span>
+                                            <span className="text-sm">info@lumen.az</span>
                                         </div>
                                         <div className="flex items-center gap-3 text-slate-500 dark:text-slate-100/70">
                                             <span className="material-symbols-outlined text-primary text-xl">schedule</span>

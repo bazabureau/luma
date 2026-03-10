@@ -25,10 +25,9 @@ export default function ValuesSection() {
                                 verified
                             </span>
                         </div>
-                        <h3 className="text-xl font-bold">Peşəkar Yanaşma</h3>
+                        <h3 className="text-xl font-bold">Peşəkar yanaşmamız</h3>
                         <p className="text-slate-500 dark:text-slate-100/70 leading-relaxed">
-                            Hər bir pasiyentə beynəlxalq standartlara və etik normalara
-                            uyğun yüksək səviyyəli yanaşma tətbiq edilir.
+                            Hər bir pasiyentə sevgi ilə yanaşaraq, içindəki işığı gücləndirmək və həyatına aydınlıq gətirməkdir
                         </p>
                     </div>
                     {/* Value 2 */}

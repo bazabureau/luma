@@ -47,14 +47,6 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                                 <h3 className="text-lg font-bold mb-5">Seans Məlumatları</h3>
                                 <div className="flex flex-col gap-4">
                                     <div className="flex items-center gap-3">
-                                        <span className="material-symbols-outlined text-primary">schedule</span>
-                                        <div><span className="text-xs text-slate-500 dark:text-slate-300 uppercase tracking-wider font-semibold">Müddət</span><p className="font-bold">{service.duration}</p></div>
-                                    </div>
-                                    <div className="flex items-center gap-3">
-                                        <span className="material-symbols-outlined text-primary">payments</span>
-                                        <div><span className="text-xs text-slate-500 dark:text-slate-300 uppercase tracking-wider font-semibold">Qiymət</span><p className="font-bold">{service.price}</p></div>
-                                    </div>
-                                    <div className="flex items-center gap-3">
                                         <span className="material-symbols-outlined text-primary">group</span>
                                         <div><span className="text-xs text-slate-500 dark:text-slate-300 uppercase tracking-wider font-semibold">Hədəf qrup</span><p className="font-bold text-sm">{service.audience}</p></div>
                                     </div>
