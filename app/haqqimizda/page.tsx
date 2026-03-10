@@ -3,22 +3,10 @@ import Footer from "@/components/Footer";
 
 const team = [
     {
-        name: "Dr. Leyla Həsənova",
-        role: "Klinik Psixoloq, Baş Mütəxəssis",
-        image: "/images/team-female.png",
-        bio: "15 illik təcrübə. Koqnitiv-davranış terapiyası və travma müalicəsi üzrə ixtisaslaşıb.",
-    },
-    {
-        name: "Dr. Elvin Məmmədov",
-        role: "Psixoterapevt",
-        image: "/images/team-male.png",
-        bio: "10 illik təcrübə. Ailə və cütlük terapiyası, yeniyetmə psixologiyası sahəsində mütəxəssis.",
-    },
-    {
-        name: "Aynur Əliyeva",
-        role: "Uşaq Psixoloqu",
-        image: "/images/team-female.png",
-        bio: "8 illik təcrübə. Uşaq inkişafı, oyun terapiyası və davranış problemləri üzrə ixtisaslaşıb.",
+        name: "Mina Əliyeva",
+        role: "Klinik Psixoloq",
+        image: "/images/mina.jpg",
+        bio: "Mina Əliyeva psixologiya sahəsində fundamental akademik baza və uzunillik praktik təcrübəni birləşdirən mütəxəssisdir. 10 ildən artıq peşəkar fəaliyyəti müddətində uşaqlar, yeniyetmələr və böyüklərlə yüksək həssaslıq, fərdi yanaşma və peşəkar etika çərçivəsində çalışaraq, onların psixoloji rifahının yaxşılaşdırılması və daxili potensialının inkişaf etdirilməsi istiqamətində mühüm töhfələr vermişdir.",
     },
 ];
 
