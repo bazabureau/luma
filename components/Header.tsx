@@ -10,7 +10,7 @@ export default function Header() {
         <header className="sticky top-0 z-50 border-b border-solid border-slate-900/10 dark:border-slate-100/10 bg-surface-light/95 dark:bg-surface-dark/95 backdrop-blur-sm">
             <div className="flex items-center justify-between whitespace-nowrap px-5 py-4 lg:px-10 max-w-[1200px] mx-auto w-full">
                 <Link href="/" className="flex items-center gap-3 min-w-0" onClick={() => setMenuOpen(false)}>
-                    <img src="/images/lumen-logo.png" alt="Lumen Logo" className="h-10 w-auto object-contain" />
+                    <img src="/images/lumen-logo.png" alt="Lumen Logo" className="h-16 w-auto object-contain" />
                 </Link>
                 <div className="hidden lg:flex flex-1 justify-end gap-8 items-center">
                     <nav className="flex items-center gap-8">

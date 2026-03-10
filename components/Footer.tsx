@@ -8,7 +8,7 @@ export default function Footer() {
                     {/* Brand */}
                     <div className="flex flex-col gap-6">
                         <Link href="/" className="flex items-center gap-3 text-primary">
-                            <img src="/images/lumen-logo.png" alt="Lumen Logo" className="h-10 w-auto object-contain brightness-0 invert" />
+                            <img src="/images/lumen-logo.png" alt="Lumen Logo" className="h-20 w-auto object-contain brightness-0 invert -ml-4" />
                         </Link>
                         <p className="text-slate-400 text-sm leading-relaxed">
                             Sevgi ən güclü işıqdır. İnsan ən çox anlayış gördüyü yerdə sağalmağa başlayır.
