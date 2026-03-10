@@ -1,7 +1,43 @@
+"use client";
+
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { useState } from "react";
 
 export default function QebulPage() {
+    const [formData, setFormData] = useState({
+        firstName: "",
+        lastName: "",
+        phone: "",
+        email: "",
+        service: "",
+        date: "",
+        time: "",
+        contactMethod: "",
+        notes: ""
+    });
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
+
+    const handleSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
+
+        const message = `*Yeni Qeydiyyat*\n\n` +
+            `*Ad:* ${formData.firstName}\n` +
+            `*Soyad:* ${formData.lastName}\n` +
+            `*Telefon:* ${formData.phone}\n` +
+            (formData.email ? `*E-poçt:* ${formData.email}\n` : '') +
+            (formData.service ? `*Xidmət:* ${formData.service}\n` : '') +
+            (formData.date ? `*Tarix:* ${formData.date}\n` : '') +
+            (formData.time ? `*Vaxt:* ${formData.time}\n` : '') +
+            (formData.contactMethod ? `*Əlaqə Vasitəsi:* ${formData.contactMethod}\n` : '') +
+            (formData.notes ? `*Əlavə Qeyd:* ${formData.notes}` : '');
+
+        const encodedMessage = encodeURIComponent(message);
+        window.open(`https://wa.me/994506032365?text=${encodedMessage}`, '_blank');
+    };
     return (
         <div className="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
             <div className="flex h-full grow flex-col">
@@ -27,58 +63,59 @@ export default function QebulPage() {
                         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                             {/* Form */}
                             <div className="lg:col-span-2 p-8 lg:p-10 rounded-2xl bg-surface-light dark:bg-surface-dark border border-slate-900/5 dark:border-slate-100/5">
-                                <form className="flex flex-col gap-6">
+                                <form className="flex flex-col gap-6" onSubmit={handleSubmit}>
                                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                                         <div className="flex flex-col gap-1.5">
                                             <label className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-300">Ad</label>
-                                            <input className="w-full bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors" placeholder="Adınız" type="text" />
+                                            <input className="w-full bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors" placeholder="Adınız" type="text" name="firstName" value={formData.firstName} onChange={handleChange} required />
                                         </div>
                                         <div className="flex flex-col gap-1.5">
                                             <label className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-300">Soyad</label>
-                                            <input className="w-full bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors" placeholder="Soyadınız" type="text" />
+                                            <input className="w-full bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors" placeholder="Soyadınız" type="text" name="lastName" value={formData.lastName} onChange={handleChange} required />
                                         </div>
                                     </div>
                                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                                         <div className="flex flex-col gap-1.5">
                                             <label className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-300">Telefon Nömrəsi</label>
-                                            <input className="w-full bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors" placeholder="+994 -- --- -- --" type="tel" />
+                                            <input className="w-full bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors" placeholder="+994 -- --- -- --" type="tel" name="phone" value={formData.phone} onChange={handleChange} required />
                                         </div>
                                         <div className="flex flex-col gap-1.5">
                                             <label className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-300">E-poçt (Könüllü)</label>
-                                            <input className="w-full bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors" placeholder="email@nümunə.az" type="email" />
+                                            <input className="w-full bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors" placeholder="email@nümunə.az" type="email" name="email" value={formData.email} onChange={handleChange} />
                                         </div>
                                     </div>
                                     <div className="flex flex-col gap-1.5">
                                         <label className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-300">Xidmət Növü</label>
-                                        <select className="w-full bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors">
-                                            <option>Seçin...</option>
-                                            <option>Fərdi Terapiya</option>
-                                            <option>Cütlük Terapiyası</option>
-                                            <option>Ailə Terapiyası</option>
-                                            <option>Uşaq Psixologiyası</option>
-                                            <option>Qrup Terapiyası</option>
-                                            <option>Yeniyetmə Terapiyası</option>
-                                            <option>Psixoloji Diaqnostika</option>
+                                        <select className="w-full bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors" name="service" value={formData.service} onChange={handleChange}>
+                                            <option value="">Seçin...</option>
+                                            <option value="Klinik Xidmət">Klinik Xidmət</option>
+                                            <option value="Fərdi Terapiya">Fərdi Terapiya</option>
+                                            <option value="Cütlük Terapiyası">Cütlük Terapiyası</option>
+                                            <option value="Ailə Terapiyası">Ailə Terapiyası</option>
+                                            <option value="Uşaq Psixologiyası">Uşaq Psixologiyası</option>
+                                            <option value="Qrup Terapiyası">Qrup Terapiyası</option>
+                                            <option value="Yeniyetmə Terapiyası">Yeniyetmə Terapiyası</option>
+                                            <option value="Psixoloji Diaqnostika">Psixoloji Diaqnostika</option>
                                         </select>
                                     </div>
                                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                                         <div className="flex flex-col gap-1.5">
                                             <label className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-300">Tarix</label>
-                                            <input className="w-full bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors" type="date" />
+                                            <input className="w-full bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors" type="date" name="date" value={formData.date} onChange={handleChange} />
                                         </div>
                                         <div className="flex flex-col gap-1.5">
                                             <label className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-300">Vaxt</label>
-                                            <select className="w-full bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors">
-                                                <option>Seçin...</option>
-                                                <option>09:00</option>
-                                                <option>10:00</option>
-                                                <option>11:00</option>
-                                                <option>12:00</option>
-                                                <option>14:00</option>
-                                                <option>15:00</option>
-                                                <option>16:00</option>
-                                                <option>17:00</option>
-                                                <option>18:00</option>
+                                            <select className="w-full bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors" name="time" value={formData.time} onChange={handleChange}>
+                                                <option value="">Seçin...</option>
+                                                <option value="09:00">09:00</option>
+                                                <option value="10:00">10:00</option>
+                                                <option value="11:00">11:00</option>
+                                                <option value="12:00">12:00</option>
+                                                <option value="14:00">14:00</option>
+                                                <option value="15:00">15:00</option>
+                                                <option value="16:00">16:00</option>
+                                                <option value="17:00">17:00</option>
+                                                <option value="18:00">18:00</option>
                                             </select>
                                         </div>
                                     </div>
@@ -87,7 +124,7 @@ export default function QebulPage() {
                                         <div className="grid grid-cols-3 gap-3">
                                             {[{ v: "call", l: "Zəng" }, { v: "whatsapp", l: "WhatsApp" }, { v: "email", l: "E-poçt" }].map((opt) => (
                                                 <label key={opt.v} className="flex items-center gap-2 cursor-pointer bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-3 py-3 hover:border-primary/30 transition-colors">
-                                                    <input className="text-primary focus:ring-primary" name="contact" type="radio" value={opt.v} />
+                                                    <input className="text-primary focus:ring-primary" name="contactMethod" type="radio" value={opt.l} onChange={handleChange} checked={formData.contactMethod === opt.l} />
                                                     <span className="text-sm font-medium">{opt.l}</span>
                                                 </label>
                                             ))}
@@ -95,7 +132,7 @@ export default function QebulPage() {
                                     </div>
                                     <div className="flex flex-col gap-1.5">
                                         <label className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-300">Əlavə Qeyd (Könüllü)</label>
-                                        <textarea className="w-full bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors min-h-[100px] resize-y" placeholder="Əlavə məlumat..."></textarea>
+                                        <textarea className="w-full bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors min-h-[100px] resize-y" placeholder="Əlavə məlumat..." name="notes" value={formData.notes} onChange={handleChange}></textarea>
                                     </div>
                                     <button className="w-full bg-primary text-slate-900 font-bold py-3.5 rounded-lg mt-2 hover:bg-primary/90 shadow-lg shadow-primary/20 transition-all active:scale-[0.98]" type="submit">Qeydiyyatı Təsdiqlə</button>
                                 </form>
