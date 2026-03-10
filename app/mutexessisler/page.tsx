@@ -3,12 +3,12 @@ import Footer from "@/components/Footer";
 
 const specialists = [
     {
-        name: "Mina xanım",
-        role: "Psixoloq",
+        name: "Mina Əliyeva",
+        role: "Klinik Psixoloq",
         image: "/images/team-female.png",
-        bio: "",
-        specialties: ["Psixoloji Konsultasiya"],
-        education: "",
+        bio: "Mina Əliyeva psixologiya sahəsində fundamental akademik baza və uzunillik praktik təcrübəni birləşdirən mütəxəssisdir. 10 ildən artıq peşəkar fəaliyyəti müddətində uşaqlar, yeniyetmələr və böyüklərlə yüksək həssaslıq, fərdi yanaşma və peşəkar etika çərçivəsində çalışaraq, onların psixoloji rifahının yaxşılaşdırılması və daxili potensialının inkişaf etdirilməsi istiqamətində mühüm töhfələr vermişdir.",
+        specialties: ["Uşaq", "Yeniyetmə", "Böyüklər", "Klinik Psixologiya"],
+        education: "BDU (Bakalavr) | ADPU (Magistr)",
     },
 ];
 
