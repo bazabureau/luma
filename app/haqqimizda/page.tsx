@@ -211,7 +211,7 @@ export default function HaqqimizdaPage() {
                             </div>
                             <a
                                 href="/qebul"
-                                className="flex min-w-[180px] cursor-pointer items-center justify-center rounded-lg h-12 px-8 bg-primary text-slate-900 text-sm font-bold shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all active:scale-[0.98]"
+                                className="flex min-w-[180px] cursor-pointer items-center justify-center rounded-lg h-12 px-8 bg-primary text-white text-sm font-bold shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all active:scale-[0.98]"
                             >
                                 Qəbula yazıl
                             </a>

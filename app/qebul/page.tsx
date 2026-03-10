@@ -134,7 +134,7 @@ export default function QebulPage() {
                                         <label className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-300">Əlavə Qeyd (Könüllü)</label>
                                         <textarea className="w-full bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors min-h-[100px] resize-y" placeholder="Əlavə məlumat..." name="notes" value={formData.notes} onChange={handleChange}></textarea>
                                     </div>
-                                    <button className="w-full bg-primary text-slate-900 font-bold py-3.5 rounded-lg mt-2 hover:bg-primary/90 shadow-lg shadow-primary/20 transition-all active:scale-[0.98]" type="submit">Qeydiyyatı Təsdiqlə</button>
+                                    <button className="w-full bg-primary text-white font-bold py-3.5 rounded-lg mt-2 hover:bg-primary/90 shadow-lg shadow-primary/20 transition-all active:scale-[0.98]" type="submit">Qeydiyyatı Təsdiqlə</button>
                                 </form>
                             </div>
 

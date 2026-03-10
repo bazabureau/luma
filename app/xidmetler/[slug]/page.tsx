@@ -38,7 +38,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                                 </div>
                                 <h1 className="text-3xl lg:text-5xl font-black leading-tight tracking-tight">{service.title}</h1>
                                 <p className="text-slate-500 dark:text-slate-100/70 text-lg leading-relaxed">{service.heroDesc}</p>
-                                <Link href="/qebul" className="flex w-fit items-center justify-center h-12 px-8 bg-primary text-slate-900 font-bold rounded-lg shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all active:scale-[0.98]">
+                                <Link href="/qebul" className="flex w-fit items-center justify-center h-12 px-8 bg-primary text-white font-bold rounded-lg shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all active:scale-[0.98]">
                                     Qəbula yazıl
                                 </Link>
                             </div>
@@ -84,7 +84,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                                 <h2 className="text-xl lg:text-2xl font-black">İlk konsultasiya pulsuz!</h2>
                                 <p className="text-slate-500 dark:text-slate-100/70">Bu xidmət sizə uyğundursa, elə indi qeydiyyatdan keçin.</p>
                             </div>
-                            <Link href="/qebul" className="flex min-w-[160px] items-center justify-center h-12 px-8 bg-primary text-slate-900 font-bold rounded-lg shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all active:scale-[0.98] shrink-0">Qəbula yazıl</Link>
+                            <Link href="/qebul" className="flex min-w-[160px] items-center justify-center h-12 px-8 bg-primary text-white font-bold rounded-lg shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all active:scale-[0.98] shrink-0">Qəbula yazıl</Link>
                         </div>
                     </section>
                 </main>

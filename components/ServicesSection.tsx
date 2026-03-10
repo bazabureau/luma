@@ -25,7 +25,7 @@ export default function ServicesSection() {
                             href={`/xidmetler/${service.slug}`}
                             className="group flex flex-col p-5 lg:p-6 rounded-2xl bg-surface-light dark:bg-surface-dark border border-slate-900/5 dark:border-slate-100/5 hover:border-primary/50 transition-colors active:scale-[0.98]"
                         >
-                            <div className="size-12 rounded-full bg-background-light dark:bg-background-dark flex items-center justify-center text-primary mb-5 lg:mb-6 group-hover:bg-primary group-hover:text-slate-900 transition-colors">
+                            <div className="size-12 rounded-full bg-background-light dark:bg-background-dark flex items-center justify-center text-primary mb-5 lg:mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
                                 <span className="material-symbols-outlined">{service.icon}</span>
                             </div>
                             <h4 className="text-base lg:text-lg font-bold mb-2">{service.title}</h4>

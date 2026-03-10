@@ -63,7 +63,7 @@ export default function SuallarPage() {
                             <span className="material-symbols-outlined text-primary text-4xl">help</span>
                             <h2 className="text-xl font-bold">Sualınız cavablanmadı?</h2>
                             <p className="text-slate-500 dark:text-slate-100/70 text-sm">Bizimlə əlaqə saxlayın, sizə kömək etməkdən məmnun olarıq.</p>
-                            <a href="/elaqe" className="flex items-center justify-center h-11 px-6 bg-primary text-slate-900 font-bold rounded-lg hover:bg-primary/90 transition-colors mt-2">Əlaqə Saxla</a>
+                            <a href="/elaqe" className="flex items-center justify-center h-11 px-6 bg-primary text-white font-bold rounded-lg hover:bg-primary/90 transition-colors mt-2">Əlaqə Saxla</a>
                         </div>
                     </section>
                 </main>

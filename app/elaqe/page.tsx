@@ -51,7 +51,7 @@ export default function ElaqePage() {
                                     <h3 className="text-lg font-bold">Sosial Şəbəkələr</h3>
                                     <div className="flex gap-3">
                                         {["share", "photo_camera", "mail"].map((icon) => (
-                                            <a key={icon} href="#" className="size-12 rounded-xl bg-background-light dark:bg-background-dark flex items-center justify-center hover:bg-primary hover:text-slate-900 transition-colors">
+                                            <a key={icon} href="#" className="size-12 rounded-xl bg-background-light dark:bg-background-dark flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
                                                 <span className="material-symbols-outlined">{icon}</span>
                                             </a>
                                         ))}
@@ -85,7 +85,7 @@ export default function ElaqePage() {
                                         <label className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-300">Mesajınız</label>
                                         <textarea className="w-full bg-background-light dark:bg-background-dark border border-slate-900/10 dark:border-slate-100/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary transition-colors min-h-[140px] resize-y" placeholder="Mesajınızı buraya yazın..."></textarea>
                                     </div>
-                                    <button className="w-full bg-primary text-slate-900 font-bold py-3.5 rounded-lg hover:bg-primary/90 shadow-lg shadow-primary/20 transition-all active:scale-[0.98]" type="submit">Göndər</button>
+                                    <button className="w-full bg-primary text-white font-bold py-3.5 rounded-lg hover:bg-primary/90 shadow-lg shadow-primary/20 transition-all active:scale-[0.98]" type="submit">Göndər</button>
                                 </form>
                             </div>
                         </div>

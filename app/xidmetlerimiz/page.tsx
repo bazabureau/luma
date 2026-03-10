@@ -112,7 +112,7 @@ export default function XidmetlerimizPage() {
                                     className="group flex flex-col lg:flex-row gap-8 p-8 rounded-2xl bg-surface-light dark:bg-surface-dark border border-slate-900/5 dark:border-slate-100/5 hover:border-primary/30 transition-colors"
                                 >
                                     <div className="flex flex-col gap-4 lg:w-1/3">
-                                        <div className="size-14 rounded-xl bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-slate-900 transition-colors">
+                                        <div className="size-14 rounded-xl bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
                                             <span className="material-symbols-outlined text-3xl">
                                                 {service.icon}
                                             </span>
@@ -156,7 +156,7 @@ export default function XidmetlerimizPage() {
                             </div>
                             <a
                                 href="/qebul"
-                                className="flex min-w-[180px] cursor-pointer items-center justify-center rounded-lg h-12 px-8 bg-primary text-slate-900 text-sm font-bold shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all active:scale-[0.98]"
+                                className="flex min-w-[180px] cursor-pointer items-center justify-center rounded-lg h-12 px-8 bg-primary text-white text-sm font-bold shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all active:scale-[0.98]"
                             >
                                 Pulsuz Konsultasiya
                             </a>

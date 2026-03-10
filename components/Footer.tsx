@@ -14,10 +14,10 @@ export default function Footer() {
                             Sevgi ən güclü işıqdır. İnsan ən çox anlayış gördüyü yerdə sağalmağa başlayır.
                         </p>
                         <div className="flex gap-3">
-                            <a className="size-11 rounded-full bg-background-dark flex items-center justify-center hover:bg-primary hover:text-slate-900 transition-colors" href="#">
+                            <a className="size-11 rounded-full bg-background-dark flex items-center justify-center hover:bg-primary hover:text-white transition-colors" href="#">
                                 <span className="material-symbols-outlined text-xl">share</span>
                             </a>
-                            <a className="size-11 rounded-full bg-background-dark flex items-center justify-center hover:bg-primary hover:text-slate-900 transition-colors" href="#">
+                            <a className="size-11 rounded-full bg-background-dark flex items-center justify-center hover:bg-primary hover:text-white transition-colors" href="#">
                                 <span className="material-symbols-outlined text-xl">mail</span>
                             </a>
                         </div>
@@ -57,7 +57,7 @@ export default function Footer() {
                         <p className="text-slate-400 text-sm">Yeniliklər və faydalı məqalələr üçün abunə olun.</p>
                         <form className="flex flex-col gap-3">
                             <input className="bg-background-dark border border-slate-100/10 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-primary w-full" placeholder="E-poçt ünvanınız" type="email" />
-                            <button className="bg-primary text-slate-900 font-bold text-sm py-3 rounded-lg hover:bg-primary/90 transition-colors w-full active:scale-[0.98]" type="submit">Abunə ol</button>
+                            <button className="bg-primary text-white font-bold text-sm py-3 rounded-lg hover:bg-primary/90 transition-colors w-full active:scale-[0.98]" type="submit">Abunə ol</button>
                         </form>
                     </div>
                 </div>

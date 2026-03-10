@@ -22,7 +22,7 @@ export default function Header() {
                         <Link className="text-sm font-semibold hover:text-primary transition-colors" href="/deyerlerimiz">Dəyərlərimiz</Link>
                         <Link className="text-sm font-semibold hover:text-primary transition-colors" href="/elaqe">Əlaqə</Link>
                     </nav>
-                    <Link href="/qebul" className="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary text-slate-900 text-sm font-bold shadow-sm hover:bg-primary/90 transition-colors">
+                    <Link href="/qebul" className="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary text-white text-sm font-bold shadow-sm hover:bg-primary/90 transition-colors">
                         <span className="truncate">Qəbula yazıl</span>
                     </Link>
                 </div>
@@ -66,7 +66,7 @@ export default function Header() {
                     ))}
                     <Link
                         href="/qebul"
-                        className="flex items-center justify-center h-12 mt-4 bg-primary text-slate-900 font-bold rounded-lg shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all active:scale-[0.98]"
+                        className="flex items-center justify-center h-12 mt-4 bg-primary text-white font-bold rounded-lg shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all active:scale-[0.98]"
                         onClick={() => setMenuOpen(false)}
                     >
                         Qəbula yazıl

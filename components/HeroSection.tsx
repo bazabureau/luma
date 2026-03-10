@@ -79,7 +79,7 @@ export default function HeroSection() {
                                 </div>
                             </div>
                             <button
-                                className="w-full bg-primary text-slate-900 font-bold py-3 rounded-lg mt-2 hover:bg-primary/90 shadow-lg shadow-primary/20 transition-all active:scale-[0.98]"
+                                className="w-full bg-primary text-white font-bold py-3 rounded-lg mt-2 hover:bg-primary/90 shadow-lg shadow-primary/20 transition-all active:scale-[0.98]"
                                 type="submit"
                             >
                                 Göndər
