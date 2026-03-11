@@ -67,10 +67,7 @@ export default function Footer() {
                 </div>
                 <div className="border-t border-slate-100/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-slate-500 text-sm">© 2024 Lumen Psixologiya Mərkəzi. Bütün hüquqlar qorunur.</p>
-                    <div className="flex gap-6">
-                        <a className="text-slate-500 hover:text-white text-sm transition-colors" href="#">Məxfilik Siyasəti</a>
-                        <a className="text-slate-500 hover:text-white text-sm transition-colors" href="#">İstifadə Şərtləri</a>
-                    </div>
+
                 </div>
             </div>
         </footer>
