@@ -167,7 +167,7 @@ export default function HaqqimizdaPage() {
                                         className="flex flex-col items-center gap-6 p-8 rounded-2xl bg-surface-light dark:bg-surface-dark border border-slate-900/5 dark:border-slate-100/5 transition-transform hover:-translate-y-1"
                                     >
                                         <div
-                                            className="size-32 rounded-full bg-cover bg-center border-4 border-primary/20"
+                                            className="size-32 rounded-full bg-cover bg-center bg-no-repeat border-4 border-primary/20"
                                             style={{ backgroundImage: `url('${member.image}')` }}
                                         ></div>
                                         <div className="text-center flex flex-col gap-2">

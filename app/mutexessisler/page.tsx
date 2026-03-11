@@ -5,7 +5,7 @@ const specialists = [
     {
         name: "Mina Əliyeva",
         role: "Klinik Psixoloq",
-        image: "/images/team-female.png",
+        image: "/images/mina.jpg",
         bio: "Mina Əliyeva psixologiya sahəsində fundamental akademik baza və uzunillik praktik təcrübəni birləşdirən mütəxəssisdir. 10 ildən artıq peşəkar fəaliyyəti müddətində uşaqlar, yeniyetmələr və böyüklərlə yüksək həssaslıq, fərdi yanaşma və peşəkar etika çərçivəsində çalışaraq, onların psixoloji rifahının yaxşılaşdırılması və daxili potensialının inkişaf etdirilməsi istiqamətində mühüm töhfələr vermişdir.",
         specialties: ["Uşaq", "Yeniyetmə", "Böyüklər", "Klinik Psixologiya"],
         education: "BDU (Bakalavr) | ADPU (Magistr)",
@@ -37,7 +37,7 @@ export default function MutexessislerPage() {
                             {specialists.map((s) => (
                                 <div key={s.name} className="flex flex-col p-6 rounded-2xl bg-surface-light dark:bg-surface-dark border border-slate-900/5 dark:border-slate-100/5 transition-transform hover:-translate-y-1">
                                     <div className="flex items-center gap-4 mb-5">
-                                        <div className="size-20 rounded-full bg-cover bg-center border-3 border-primary/20 shrink-0" style={{ backgroundImage: `url('${s.image}')` }}></div>
+                                        <div className="size-20 rounded-full bg-cover bg-center bg-no-repeat border-3 border-primary/20 shrink-0" style={{ backgroundImage: `url('${s.image}')` }}></div>
                                         <div>
                                             <h3 className="text-lg font-bold">{s.name}</h3>
                                             <p className="text-primary font-semibold text-sm">{s.role}</p>
