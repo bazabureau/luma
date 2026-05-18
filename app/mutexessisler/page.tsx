@@ -8,15 +8,15 @@ const specialists = [
         image: "/images/mina.jpg",
         bio: "Mina Əliyeva psixologiya sahəsində fundamental akademik baza və uzunillik praktik təcrübəni birləşdirən mütəxəssisdir. 10 ildən artıq peşəkar fəaliyyəti müddətində uşaqlar, yeniyetmələr və böyüklərlə yüksək həssaslıq, fərdi yanaşma və peşəkar etika çərçivəsində çalışaraq, onların psixoloji rifahının yaxşılaşdırılması və daxili potensialının inkişaf etdirilməsi istiqamətində mühüm töhfələr vermişdir.",
         specialties: ["Uşaq", "Yeniyetmə", "Böyüklər", "Klinik Psixologiya"],
-        education: "BDU (Bakalavr) | ADPU (Magistr)",
+        education: "Bakı Dövlət Universiteti (Bakalavr) | Azərbaycan Dövlət Pedaqoji Universiteti (Magistr)",
     },
     {
         name: "Nailə Nuruzadə",
         role: "Defektoloq / Loqoped",
         image: "/images/naile.jpg",
-        bio: "Nailə Nuruzadə uşaqların nitq, ünsiyyət və inkişaf sahəsində fərdi dəstəyin göstərilməsi istiqamətində çalışan gənc və məsuliyyətli mütəxəssisdir. Azərbaycan Dövlət Pedaqoji Universiteti məzunu olaraq korreksiyaedici təlim ixtisası üzrə təhsil almışdır. Peşə fəaliyyəti dövründə müxtəlif inkişaf xüsusiyyətlərinə malik uşaqlarla çalışaraq onların nitq bacarıqlarının, diqqət və sosial ünsiyyət qabiliyyətlərinin inkişafına dəstək olmuşdur. Hər bir uşağa fərdi yanaşmanı əsas prinsip hesab edir və terapiya prosesində müasir metodlardan istifadə edir. Müxtəlif seminar, təlim və beynəlxalq konfranslarda iştirak etmiş, öz bilik və bacarıqlarını davamlı şəkildə inkişaf etdirmişdir. Məqsədi uşaqların potensialını üzə çıxarmaq və onların cəmiyyətə daha rahat uyğunlaşmasına dəstək olmaqdır.",
+        bio: "Nailə Nuruzadə uşaqların nitq, ünsiyyət və inkişaf sahəsində fərdi dəstəyin göstərilməsi istiqamətində çalışan gənc və məsuliyyətli mütəxəssisdir. Azərbaycan Dövlət Pedaqoji Universitetinin məzunu olaraq korreksiyaedici təlim ixtisası üzrə təhsil almışdır. Peşə fəaliyyəti dövründə müxtəlif inkişaf xüsusiyyətlərinə malik uşaqlarla çalışaraq onların nitq bacarıqlarının, diqqət və sosial ünsiyyət qabiliyyətlərinin inkişafına dəstək olmuşdur. Hər bir uşağa fərdi yanaşmanı əsas prinsip hesab edir və terapiya prosesində müasir metodlardan istifadə edir. Müxtəlif seminar, təlim və beynəlxalq konfranslarda iştirak etmiş, öz bilik və bacarıqlarını davamlı şəkildə inkişaf etdirmişdir. Məqsədi uşaqların potensialını üzə çıxarmaq və onların cəmiyyətə daha rahat uyğunlaşmasına dəstək olmaqdır.",
         specialties: ["Uşaq", "Nitq inkişafı", "Defektologiya", "Loqopediya"],
-        education: "ADPU – Korreksiyaedici təlim ixtisası",
+        education: "Azərbaycan Dövlət Pedaqoji Universiteti – Korreksiyaedici təlim ixtisası",
     },
 ];
 

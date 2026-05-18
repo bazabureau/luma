@@ -12,7 +12,7 @@ const team = [
         name: "Nailə Nuruzadə",
         role: "Defektoloq / Loqoped",
         image: "/images/naile.jpg",
-        bio: "Nailə Nuruzadə uşaqların nitq, ünsiyyət və inkişaf sahəsində fərdi dəstəyin göstərilməsi istiqamətində çalışan gənc və məsuliyyətli mütəxəssisdir. ADPU məzunu olaraq korreksiyaedici təlim ixtisası üzrə təhsil almışdır. Müxtəlif inkişaf xüsusiyyətlərinə malik uşaqlarla çalışaraq onların nitq, diqqət və sosial ünsiyyət qabiliyyətlərinin inkişafına dəstək olur.",
+        bio: "Nailə Nuruzadə uşaqların nitq, ünsiyyət və inkişaf sahəsində fərdi dəstəyin göstərilməsi istiqamətində çalışan gənc və məsuliyyətli mütəxəssisdir. Azərbaycan Dövlət Pedaqoji Universitetinin məzunu olaraq korreksiyaedici təlim ixtisası üzrə təhsil almışdır. Müxtəlif inkişaf xüsusiyyətlərinə malik uşaqlarla çalışaraq onların nitq, diqqət və sosial ünsiyyət qabiliyyətlərinin inkişafına dəstək olur.",
     },
 ];
 
