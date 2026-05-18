@@ -10,6 +10,14 @@ const specialists = [
         specialties: ["Uşaq", "Yeniyetmə", "Böyüklər", "Klinik Psixologiya"],
         education: "BDU (Bakalavr) | ADPU (Magistr)",
     },
+    {
+        name: "Nailə Nuruzadə",
+        role: "Defektoloq / Loqoped",
+        image: "/images/naile.jpg",
+        bio: "Nailə Nuruzadə uşaqların nitq, ünsiyyət və inkişaf sahəsində fərdi dəstəyin göstərilməsi istiqamətində çalışan gənc və məsuliyyətli mütəxəssisdir. Azərbaycan Dövlət Pedaqoji Universiteti məzunu olaraq korreksiyaedici təlim ixtisası üzrə təhsil almışdır. Peşə fəaliyyəti dövründə müxtəlif inkişaf xüsusiyyətlərinə malik uşaqlarla çalışaraq onların nitq bacarıqlarının, diqqət və sosial ünsiyyət qabiliyyətlərinin inkişafına dəstək olmuşdur. Hər bir uşağa fərdi yanaşmanı əsas prinsip hesab edir və terapiya prosesində müasir metodlardan istifadə edir. Müxtəlif seminar, təlim və beynəlxalq konfranslarda iştirak etmiş, öz bilik və bacarıqlarını davamlı şəkildə inkişaf etdirmişdir. Məqsədi uşaqların potensialını üzə çıxarmaq və onların cəmiyyətə daha rahat uyğunlaşmasına dəstək olmaqdır.",
+        specialties: ["Uşaq", "Nitq inkişafı", "Defektologiya", "Loqopediya"],
+        education: "ADPU – Korreksiyaedici təlim ixtisası",
+    },
 ];
 
 export default function MutexessislerPage() {
@@ -25,9 +33,9 @@ export default function MutexessislerPage() {
                                 <h3 className="text-primary font-bold uppercase tracking-widest text-sm">Komandamız</h3>
                                 <div className="h-[2px] w-8 bg-primary"></div>
                             </div>
-                            <h1 className="text-4xl lg:text-6xl font-black leading-tight tracking-tight">Psixoloqumuz</h1>
+                            <h1 className="text-4xl lg:text-6xl font-black leading-tight tracking-tight">Mütəxəssislərimiz</h1>
                             <p className="text-slate-500 dark:text-slate-100/70 text-lg leading-relaxed">
-                                Komandamız beynəlxalq sertifikatlara sahib, təcrübəli psixoloqlardan və psixoterapevtlərdən ibarətdir.
+                                Komandamız beynəlxalq sertifikatlara sahib, təcrübəli psixoloqlardan, psixoterapevtlərdən və korreksiyaedici təlim mütəxəssislərindən ibarətdir.
                             </p>
                         </div>
                     </section>

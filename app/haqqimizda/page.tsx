@@ -8,6 +8,12 @@ const team = [
         image: "/images/mina.jpg",
         bio: "Mina Əliyeva psixologiya sahəsində fundamental akademik baza və uzunillik praktik təcrübəni birləşdirən mütəxəssisdir. 10 ildən artıq peşəkar fəaliyyəti müddətində uşaqlar, yeniyetmələr və böyüklərlə yüksək həssaslıq, fərdi yanaşma və peşəkar etika çərçivəsində çalışaraq, onların psixoloji rifahının yaxşılaşdırılması və daxili potensialının inkişaf etdirilməsi istiqamətində mühüm töhfələr vermişdir.",
     },
+    {
+        name: "Nailə Nuruzadə",
+        role: "Defektoloq / Loqoped",
+        image: "/images/naile.jpg",
+        bio: "Nailə Nuruzadə uşaqların nitq, ünsiyyət və inkişaf sahəsində fərdi dəstəyin göstərilməsi istiqamətində çalışan gənc və məsuliyyətli mütəxəssisdir. ADPU məzunu olaraq korreksiyaedici təlim ixtisası üzrə təhsil almışdır. Müxtəlif inkişaf xüsusiyyətlərinə malik uşaqlarla çalışaraq onların nitq, diqqət və sosial ünsiyyət qabiliyyətlərinin inkişafına dəstək olur.",
+    },
 ];
 
 const stats = [
@@ -153,7 +159,7 @@ export default function HaqqimizdaPage() {
                                     <div className="h-[2px] w-8 bg-primary"></div>
                                 </div>
                                 <h2 className="text-3xl lg:text-4xl font-black leading-tight tracking-tight">
-                                    Peşəkar Psixoloqumuz
+                                    Peşəkar Komandamız
                                 </h2>
                                 <p className="text-slate-500 dark:text-slate-100/70 text-lg max-w-2xl">
                                     Komandamız beynəlxalq sertifikatlara sahib, təcrübəli
